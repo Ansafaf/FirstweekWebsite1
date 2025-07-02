@@ -1,0 +1,400 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    position: absolute;
+    overflow-x: hidden;
+}
+.top-section
+{
+    width: 100%;
+    height: 115px;
+    margin: 0px;
+    background-color:#32d9c8;
+    position: fixed;
+    z-index: 1;
+}
+.sevenUpLogo
+{
+    width: auto;
+    height: 77px;
+    position: absolute;
+    top: 18px;
+    left: 30px;
+}
+.top-nav
+{
+    position: absolute;
+    top: 31px;
+    right: 404px;
+    list-style-type: none;
+    
+}
+#product:hover
+{
+    text-decoration: underline;
+}
+#product
+{
+    position: absolute;
+    top: 15px;
+    right: 100px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 17px;
+}
+#store:hover
+{
+    text-decoration: underline;
+}
+#store
+{
+    position: absolute;
+    top: 15px;
+    right: -80px;
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+#recipe:hover
+{
+    text-decoration: underline;
+}
+#recipe
+{
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.socialnetwork
+{
+    position: fixed;
+    top: 15px;
+    right: 60px;
+}
+.Facebook-icon
+{
+    position: absolute;
+    width: auto;
+    height: 27px;
+    top: 25px;
+    right: 168px;
+}
+.Instagram-icon
+{
+    position: absolute;
+    width: auto;
+    height: 27px;
+    top: 26px;
+    right: 138px;
+}
+.Tiktok-icon
+{
+    position: absolute;
+    width: auto;
+    height: 27px;
+    top: 26px;
+    right: 107px;
+}
+.Twitter-icon
+{
+    position: absolute;
+    width: auto;
+    height: 27px;
+    top: 26px;
+    right: 77px;
+}
+.Youtube-icon
+{
+    position: absolute;
+    width: auto;
+    height: 27px;
+    top: 26px;
+    right: 46px;
+}
+.Pinterest-icon
+{
+    position: absolute;
+    width: auto;
+    height: 27px;
+    top: 26px;
+    right: 15px;
+}
+.inner-first h1{
+    font-size: 70px;
+    font-family: "Titan One", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+}
+.imgfirst{
+    margin-top: 116px;
+
+}
+
+.inner-img
+{
+    position: absolute;
+    top: 110px;
+}
+.img-second
+{
+   width: 100%;
+   height:auto;
+}
+
+.inner-first
+{
+    position: absolute;
+    top: 370px;
+    left: 100px;
+    color: white;
+}
+.
+{
+ 
+  text-transform: uppercase;
+  font-family: 'korolev-rounded';
+  font-size: 65px;
+  font-weight: 800;
+}
+.inner-first a
+{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 46px;
+    padding-left: 46px;
+    position: relative;
+    top: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inner-second
+{
+    position: absolute;
+    width: 657px;
+    height: 200px;
+    background-color: rgba(1, 88, 30, 0.748);
+    top: 1170px;
+    right: 463px;
+    text-align: center;
+    color: white;
+    border: 0px solid white;
+    border-radius: 120px;
+}
+.para-second
+{
+    position: relative;
+    font-size: 18px;
+    top: 43px;
+    font-family: "Liter", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.button-second
+{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 35px;
+    padding-left: 35px;
+    margin: 10px;
+    font-size: 20px;
+    top: 56px;
+}
+
+#button-third
+{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 46px;
+    padding-right: 46px;
+    position: absolute;
+    top: 121px;
+    left: 230px;
+    font-size: 20px;
+
+}
+.second-image
+{
+    margin-top:-4px;
+    
+}
+.hd-second
+{
+    position: relative;
+    top: 26px;
+    font-family: "Liter", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.inner-third
+{
+    width: 690px;
+    height: 195px;
+    background: rgba(1, 88, 30, 0.748);
+    position: relative;
+    text-align: center;
+    border: 2px solid rgba(1, 88, 30, 0.748);
+    border-radius: 110px;
+    color: white;
+    left: 411px;
+    bottom: 400px;
+    font-family: 'korolev-rounded';
+}
+.footer
+{
+    width: 1519px;
+    height: 140px;
+    background-color:#484a4a;
+    left: 0px;
+    bottom: 64px;
+    color: white;
+    position: absolute;
+    bottom: -80vh;
+
+}
+.footer-nav
+{
+    position: relative;
+    list-style-type: none;
+    top: -17px;
+}
+
+#privacy
+{
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 293px;
+
+    
+}
+#Ca-notice
+{
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 401px;
+    
+}
+#personal-information
+{
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 565px;
+    
+}
+#terms
+{
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    top: 30px;
+    right: 630px;
+    
+}
+#access
+{
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    top: 30px;
+    right: 530px;                                                                                                                                                                                                                                                                                                                                                                     
+    
+}
+#contact
+{
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    right: 452px;
+    top: 30px;
+    
+}
+#faq
+{
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    right: 396px;
+    top: 30px;
+    
+}
+#career
+{
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    right: 332px;
+    top: 30px;
+    
+}
+
+.last-para
+{
+    
+    position: absolute;
+    top: 45px;
+    left: 480px;
+    font-size: 13px;
+    color: white;
+
+    
+}
+.img-third
+{
+    height: 800px;
+    width: 100%;
+    margin-top: -4px;
+    
+}
+.inner-third h1
+{
+    position: relative;
+    top: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#para-third
+{
+    position: relative;
+    top: 41px;
+}
+
+.third{
+    height: 52vh;
+}
